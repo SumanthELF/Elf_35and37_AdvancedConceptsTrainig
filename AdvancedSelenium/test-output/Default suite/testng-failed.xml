@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="profile.TC_Profile_002_Test">
+        <methods>
+          <include name="createTasks"/>
+          <include name="Browser_tear_down"/>
+          <include name="Browser_Setup"/>
+        </methods>
+      </class> <!-- profile.TC_Profile_002_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

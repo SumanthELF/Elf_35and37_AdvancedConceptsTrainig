@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Close]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16001" started-at="2022-08-01T15:46:29 IST" finished-at="2022-08-01T15:46:45 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16001" started-at="2022-08-01T15:46:29 IST" finished-at="2022-08-01T15:46:45 IST">
+      <class name="profile.TC_Profile_002_Test">
+        <test-method status="PASS" signature="Browser_Setup()[pri:0, instance:profile.TC_Profile_002_Test@17579e0f]" name="Browser_Setup" is-config="true" duration-ms="2041" started-at="2022-08-01T15:46:29 IST" finished-at="2022-08-01T15:46:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Setup -->
+        <test-method status="PASS" signature="createTasks()[pri:0, instance:profile.TC_Profile_002_Test@17579e0f]" name="createTasks" duration-ms="12886" started-at="2022-08-01T15:46:31 IST" finished-at="2022-08-01T15:46:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTasks -->
+        <test-method status="PASS" signature="Browser_tear_down(org.testng.ITestResult)[pri:0, instance:profile.TC_Profile_002_Test@17579e0f]" name="Browser_tear_down" is-config="true" duration-ms="1012" started-at="2022-08-01T15:46:44 IST" finished-at="2022-08-01T15:46:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createTasks status=SUCCESS method=TC_Profile_002_Test.createTasks()[pri:0, instance:profile.TC_Profile_002_Test@17579e0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Close]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Browser_tear_down -->
+      </class> <!-- profile.TC_Profile_002_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
